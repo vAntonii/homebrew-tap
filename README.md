@@ -6,7 +6,8 @@ A macOS menu bar capture app for AI-assisted work: capture the selected text wit
 snippets, prompts and to-dos in sections, and hand them to Claude. macOS 26 or later.
 
 ```sh
-brew install --cask vantonii/tap/blok
+brew tap vantonii/tap
+brew install --cask blok
 ```
 
 - **First launch:** Blok isn't notarized yet, so macOS says it can't check it. Open System
