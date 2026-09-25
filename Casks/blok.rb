@@ -1,7 +1,7 @@
 # Written by scripts/release.sh from packaging/homebrew/blok.rb.in — edit the template.
 cask "blok" do
-  version "0.2.0"
-  sha256 "8d7724fa62c7ec890428c51134f06e505eb99241a1b32b71c48453ad48f8dcfe"
+  version "0.3.0"
+  sha256 "bd25da0f24f4015cefb1f4671171f7affe6c7ba543036573653566fd6b64b1d9"
 
   url "https://github.com/vAntonii/homebrew-tap/releases/download/blok-#{version}/Blok-#{version}.zip"
   name "Blok"
@@ -27,6 +27,7 @@ cask "blok" do
     open System Settings ▸ Privacy & Security and click "Open Anyway" next to Blok.
 
     Blok then asks for Accessibility access (to capture selected text with ⇧⇧).
-    Updates: brew upgrade --cask blok, then open Blok again.
+    Updates: Blok checks once a day and offers them (Settings ▸ General ▸ Updates),
+    or run brew upgrade --cask blok.
   EOS
 end
