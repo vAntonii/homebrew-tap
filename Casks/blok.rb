@@ -1,11 +1,11 @@
 # Written by scripts/release.sh from packaging/homebrew/blok.rb.in — edit the template.
 cask "blok" do
-  version "0.3.0"
-  sha256 "bd25da0f24f4015cefb1f4671171f7affe6c7ba543036573653566fd6b64b1d9"
+  version "0.4.2"
+  sha256 "c28964f4a22a23bbcd36d98665a68e23bf2ec0096da829cbd9394ffe98958c32"
 
   url "https://github.com/vAntonii/homebrew-tap/releases/download/blok-#{version}/Blok-#{version}.zip"
   name "Blok"
-  desc "Menu bar capture app for AI-assisted work"
+  desc "Capture selected text and screenshots for AI work, in a floating panel"
   homepage "https://github.com/vAntonii/homebrew-tap"
 
   depends_on macos: :tahoe
@@ -29,5 +29,8 @@ cask "blok" do
     Blok then asks for Accessibility access (to capture selected text with ⇧⇧).
     Updates: Blok checks once a day and offers them (Settings ▸ General ▸ Updates),
     or run brew upgrade --cask blok.
+
+    To use your notes from Claude Code: in Blok, … ▸ Connect to Claude… copies the
+    setup command; paste it in Terminal.
   EOS
 end
