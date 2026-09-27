@@ -1,7 +1,7 @@
 # Written by scripts/release.sh from packaging/homebrew/blok.rb.in — edit the template.
 cask "blok" do
-  version "0.4.3"
-  sha256 "d62fb8e4f16ae2863dab0dfa6e63af97816553524d3a4df456a0e17cfa334b2e"
+  version "0.6.0"
+  sha256 "cdd690503269e1d407c4c70d53cdece7f6cfffe9a1fc4ff686c0266e2dc783cf"
 
   url "https://github.com/vAntonii/homebrew-tap/releases/download/blok-#{version}/Blok-#{version}.zip"
   name "Blok"
@@ -9,6 +9,8 @@ cask "blok" do
   homepage "https://github.com/vAntonii/homebrew-tap"
 
   depends_on macos: :tahoe
+  # Blok updates itself (Settings ▸ General ▸ Updates): Homebrew leaves it to Blok.
+  auto_updates true
 
   app "Blok.app"
 
@@ -27,8 +29,7 @@ cask "blok" do
     open System Settings ▸ Privacy & Security and click "Open Anyway" next to Blok.
 
     Blok then asks for Accessibility access (to capture selected text with ⇧⇧).
-    Updates: Blok checks once a day and offers them (Settings ▸ General ▸ Updates),
-    or run brew upgrade --cask blok.
+    Updates: Blok checks once a day and installs them itself (Settings ▸ General ▸ Updates).
 
     To use your notes from Claude Code: in Blok, … ▸ Connect to Claude… copies the
     setup command; paste it in Terminal.
