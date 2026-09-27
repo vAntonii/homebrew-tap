@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.6.1",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.6.1/Blok-0.6.1.zip",
+      "sha256": "c8e7c8248bf694dba46543ec845f3ef102cc8bcde0e9950052a5e7ab980eb93d",
+      "size": 3091773,
+      "notes": "### Changed\n\n- **Simpler buttons:** the + beside the input is now a plain ⊕, drawn like the notes' check circles,\n  and a note's copy button a plain outlined symbol, without their glass circles. While the copy\n  button shows, the note's text keeps clear of it.\n\n### Fixed\n\n- The position bar at the list's edge moves as soon as you scroll (it stood still past a section's\n  header, then jumped), reaches the top and bottom with the list, and is smaller.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.6.1"
+    },
+    {
       "version": "0.6.0",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.6.0/Blok-0.6.0.zip",
