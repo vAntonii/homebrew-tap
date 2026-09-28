@@ -1,22 +1,3 @@
 {
-  "releases": [
-    {
-      "version": "0.6.1",
-      "minimumSystemVersion": "26.0",
-      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.6.1/Blok-0.6.1.zip",
-      "sha256": "c8e7c8248bf694dba46543ec845f3ef102cc8bcde0e9950052a5e7ab980eb93d",
-      "size": 3091773,
-      "notes": "### Changed\n\n- **Simpler buttons:** the + beside the input is now a plain ⊕, drawn like the notes' check circles,\n  and a note's copy button a plain outlined symbol, without their glass circles. While the copy\n  button shows, the note's text keeps clear of it.\n\n### Fixed\n\n- The position bar at the list's edge moves as soon as you scroll (it stood still past a section's\n  header, then jumped), reaches the top and bottom with the list, and is smaller.\n\n",
-      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.6.1"
-    },
-    {
-      "version": "0.6.0",
-      "minimumSystemVersion": "26.0",
-      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.6.0/Blok-0.6.0.zip",
-      "sha256": "cdd690503269e1d407c4c70d53cdece7f6cfffe9a1fc4ff686c0266e2dc783cf",
-      "size": 3087142,
-      "notes": "**Coming from 0.4.3:** 0.5.0 wasn't published on its own, so its notes below are part of this\nupdate too: sync between your Macs, and a library update (reconnect Claude Code once with `/mcp`).\nThis is also the last update Homebrew installs: from here on, Blok updates itself.\n\n### New\n\n- **Blok updates itself.** When there's a new version, **Update Now** (Settings ▸ General ▸\n  Updates, or the menu bar menu) downloads it, checks that it's signed by Blok's developer, and\n  restarts into it; with *Install updates automatically*, it does that on its own while the panel\n  is hidden. No Homebrew needed for updates any more.\n- **Sticky section headers:** a section's header stays at the top of the list while you scroll\n  through its notes.\n- **A position bar** at the list's edge shows where you are in it, while you scroll and when the\n  panel opens. It moves by notes, so it doesn't jump. Both are switches in Settings ▸ General.\n\n### Fixed\n\n- The folder dialogs for Turn On Sync and Join a Synced Library had a sentence stretched across the\n  whole screen: now it's a short heading.\n\n\n## 0.5.0 (26 September 2026)\n\n**Updating:** Blok updates its library for sync (nothing changes until you turn it on); after\nthat, older versions of Blok can't open it. If you use Blok with Claude Code, reconnect it once\n(`/mcp`) after updating.\n\n### New\n\n- **Sync between your Macs, through your own cloud folder.** Off until you turn it on in\n  Settings ▸ Sync: pick a folder your cloud app already syncs (iCloud Drive, OneDrive, Google\n  Drive or Dropbox) and Blok keeps your notes, sections and attachments in step through it. No\n  account and no server, and nothing readable in the cloud: sync needs encryption (turning it on\n  offers it first), and everything in the folder is sealed with your library's key.\n- **Join from another Mac** with Settings ▸ Sync ▸ Join a Synced Library…: the same folder and\n  your recovery key. If that Mac has notes of its own, add them to the synced library (sections\n  with the same name become one) or replace them with it (a backup is kept).\n- Changes merge field by field, so a note checked off on one Mac and edited on another keeps\n  both. The same text edited on two Macs before they synced keeps the newest; the other version\n  goes into the note's History, marked with the Mac it came from.\n- Settings ▸ Sync and the menu bar menu say when it last synced and which Macs sync, with Sync\n  Now. Which section is active, folded sections, settings and History stay on each Mac.\n\n### Changed\n\n- No line between the notes and the input any more.\n\n",
-      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.6.0"
-    }
-  ]
+  "releases": []
 }
