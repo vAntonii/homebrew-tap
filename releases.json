@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.1",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.1/Blok-0.7.1.zip",
+      "sha256": "7a5f946abf255485cdc2112cb15bf7d57945ed132a9b1ab8a6a74766959fb201",
+      "size": 3491834,
+      "notes": "### New\n\n- **A licence key can be turned off** if it's been shared around: Blok hears of it with its daily\n  update check, and a key that's been turned off pauses capture and new notes, as the end of the\n  trial does, and says so. Your notes stay, as always.\n\n### Fixed\n\n- **Drag and drop on macOS 26:** dropping files and images on Blok, and dragging notes and\n  sections, did nothing there, and dragging a section could leave every section folded. They\n  work now, and a section let go anywhere but the list always unfolds again.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.1"
+    },
+    {
       "version": "0.7.0",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.0/Blok-0.7.0.zip",
