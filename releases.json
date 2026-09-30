@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.3",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.3/Blok-0.7.3.zip",
+      "sha256": "ccbcafb94d17123b31b37c3318b0f6660067230907e22138364fa079fe476039",
+      "size": 3568273,
+      "notes": "### Changed\n\n- **The list's scroll bar works like the Mac's own.** It follows Show scroll bars in System\n  Settings ▸ Appearance: while scrolling it's a thin bar that widens when you point at it (and\n  stays while you do), and with Always (or a mouse with Automatically) it's there all the time,\n  full width on its track, with room of its own. Drag it, or click its track to jump there. It\n  moves at the list's own speed, is as long as the part you can see, and reaches the top and\n  bottom exactly with the list.\n\n### Fixed\n\n- **A note half under a pinned section header** turned white (black in dark mode) until it\n  scrolled out from under it.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.3"
+    },
+    {
       "version": "0.7.2",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.2/Blok-0.7.2.zip",
