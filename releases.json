@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.2",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.2/Blok-0.7.2.zip",
+      "sha256": "d3b068a224b5214accc902b763fd710742a368bbda1ae2d3e35e3a0ebc834fec",
+      "size": 3528806,
+      "notes": "### New\n\n- **A haptic tick** on a Force Touch trackpad each time a note or section you're dragging finds\n  a new place.\n- **The Accessibility banner can be closed.** Settings ▸ General now has an Accessibility row:\n  whether it's allowed, a button to allow it, and a switch to bring the banner back.\n\n### Changed\n\n- **The section picker under the input is a bigger button**, lit up on hover, and anywhere on it\n  opens the menu.\n- **Clicking a section's header selects it**, as the arrow keys do, and its chevron is easier to\n  hit.\n- **Deleting the completed notes** happens straight away, with Undo in the message, instead of\n  asking first.\n- **Menus:** what doesn't apply is left out of a right-click menu instead of greyed out, the …\n  menu shows its shortcuts in their own column, and the menu bar menu starts with Enable\n  Accessibility… when it's needed. Help in the panel, the Welcome window and the menu bar icon\n  names the shortcuts you've set, not the defaults.\n- **Restore Defaults…** in Settings ▸ Shortcuts asks first.\n- **Small text sizes** keep text at 10 points or more, and a note's copy button grows with the\n  text.\n- **VoiceOver** reads images and files by name, as buttons that copy them (with Open and Show in\n  Finder), says what each ✕ removes, and says which section ↑↓ reach in ⌘K.\n\n### Fixed\n\n- **Checking off a note** with completed notes hidden left nothing selected: the note above it\n  (or its section's header) is selected now.\n- **↑↓ in ⌘K** went past the bottom of a long list without scrolling, and a pointer resting on the\n  list took the highlight back.\n- **Dragging a section** with the list scrolled down hid the other sections, and a small drag\n  could send it to the end: they stay around the pointer now.\n- **The menu bar menu** said Show Blok and Hide Blok in English whatever the language.\n- **The capture confirmation by the notch** has an easier-to-read page line.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.2"
+    },
+    {
       "version": "0.7.1",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.1/Blok-0.7.1.zip",
