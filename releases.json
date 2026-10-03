@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.4",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.4/Blok-0.7.4.zip",
+      "sha256": "87a9769c0a5756ebf0fc687c926b623679915222dc2320574f07dbdc5d28dd90",
+      "size": 3606049,
+      "notes": "### New\n\n- **A licence can be activated from a link.** Opening the link in the licence email opens Blok,\n  which says whose licence it is and asks before using it, so there's no key to copy and paste. A\n  link that was cut short says so, with Open Settings to paste the key instead.\n\n### Changed\n\n- **Deleting a section** happens straight away, with Undo in the message (and ⌘Z), instead of\n  asking first. Undo puts it back where it was, with its notes and images.\n- **A section's right-click menu is in groups:** Capture Here, Rename… · Collapse, Sort by Tag,\n  Move · Copy as Prompt, Export as Markdown… · Make Private, Hide · Delete Section.\n- **Dragging notes onto a section's header** lights it up and puts them at the top of that section.\n  Resting over a folded section opens it, as a Finder folder does.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.4"
+    },
+    {
       "version": "0.7.3",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.3/Blok-0.7.3.zip",
