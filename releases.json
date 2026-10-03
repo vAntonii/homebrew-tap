@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.6",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.6/Blok-0.7.6.zip",
+      "sha256": "b28f957cb40c37b43c2696926fbfb7d78f191c98af56f872ff66472aaf9c6b0f",
+      "size": 3602538,
+      "notes": "### New\n\n- **Free through your school or work?** Settings ▸ General ▸ Licence has a link to check whether a\n  school, university or nonprofit you're at gives you Blok for free. If it does, the key comes by\n  email, with a link that opens Blok to use it.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.6"
+    },
+    {
       "version": "0.7.5",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.5/Blok-0.7.5.zip",
