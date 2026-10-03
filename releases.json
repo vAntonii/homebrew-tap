@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.5",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.5/Blok-0.7.5.zip",
+      "sha256": "aaa051abac4e1dcd4b540c8f2b9369ed12e5782c3ac55979aa4dee4e54438446",
+      "size": 3600653,
+      "notes": "### Changed\n\n- **⌘/ opens Settings ▸ Shortcuts**, where every shortcut is in a table to search and change, with\n  the editor's keys (↩, /, ⌘B…) under While typing. The cheat sheet in the panel didn't fit.\n- **Section headers sit closer together** again, as before the chevron's bigger click target.\n\n### Fixed\n\n- **Free licences from rosok.dev work.** Blok turned down keys from the website as \"not a Blok\n  licence key\".\n- **Hiding Blok while editing a note** threw the edit away; it's saved now, as clicking elsewhere\n  does. Esc still drops it.\n- **A private note stays short while it's blurred**, instead of growing to its full length when\n  selected and showing how long it is.\n- **A section's header** no longer stays lit up after notes are dropped into it.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.5"
+    },
+    {
       "version": "0.7.4",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.4/Blok-0.7.4.zip",
