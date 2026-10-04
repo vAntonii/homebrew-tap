@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.7",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.7/Blok-0.7.7.zip",
+      "sha256": "4e3e45cdb9511c7ea630190d32b8acb4487d892356072119f73deccd812ed6c7",
+      "size": 3610078,
+      "notes": "### Changed\n\n- **Opening Blok** puts you in the input with nothing else selected, instead of leaving the last\n  selected note lit up too. ↑ goes back to what you had selected when you hid Blok, so you can\n  carry on down the list.\n\n### Fixed\n\n- **\"Nothing selected\"** came out of the notch even with notch confirmations turned off (Settings ▸\n  Advanced ▸ Experimental). Every message now follows the setting.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.7"
+    },
+    {
       "version": "0.7.6",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.6/Blok-0.7.6.zip",
