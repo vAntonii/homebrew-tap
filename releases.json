@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.8",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.8/Blok-0.7.8.zip",
+      "sha256": "c2c02779497fb405d208011eca712b57523fa0720b6e8c34867dcebd314f4ed4",
+      "size": 3612017,
+      "notes": "### Fixed\n\n- **Switching between light and dark** (in System Settings, or with Auto at sunset) left the\n  panel a washed-out grey until Blok was restarted. It follows the switch now. Its glass is no\n  longer tinted for this: how see-through it is follows System Settings ▸ Appearance ▸ Liquid\n  Glass.\n- **Pasting screenshots into a note you're editing** adds them to that note, as dropping them on\n  it does. ⌘V did nothing there before.\n- **\"Nothing here yet\"** in an empty section no longer shows through the section's header when\n  you scroll.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.8"
+    },
+    {
       "version": "0.7.7",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.7/Blok-0.7.7.zip",
