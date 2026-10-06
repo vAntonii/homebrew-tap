@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.9",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.9/Blok-0.7.9.zip",
+      "sha256": "40ab112c3be7c7bc7a5b12e735e55212eb90e134dc3341ada71006e8fde734ff",
+      "size": 3568212,
+      "notes": "### Changed\n\n- **Confirmations at the notch are gone**, and with them Settings ▸ Advanced ▸ Experimental: Blok\n  has no experimental features now. A capture made while the panel is hidden is confirmed by the\n  glass toast at the top of the screen, as it was with the setting off. An `\"experimental\"` key\n  left in your settings file is ignored.\n\n### Fixed\n\n- **Folding a section while scrolled down into it** could leave the panel empty, with no\n  sections or notes, until Blok was restarted (on macOS 27). Your notes were all still there. Its\n  header now goes to the top of the list, with the sections after it below.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.9"
+    },
+    {
       "version": "0.7.8",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.8/Blok-0.7.8.zip",
