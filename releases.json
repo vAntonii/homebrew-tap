@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.10",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.10/Blok-0.7.10.zip",
+      "sha256": "44502bdfd1165b91da20de25b1831c31de98dae3d07dc4e311dd691eb94ed4f3",
+      "size": 5103898,
+      "notes": "### New\n\n- **A new app icon for macOS 26:** the same graphite Stack b, now in glass, with dark, clear and\n  tinted versions that follow System Settings ▸ Appearance ▸ Icon & widget style.\n\n### Changed\n\n- **Alerts read like the system's**, and when something goes wrong they say what happened in\n  plain words, or what to do next, instead of showing a technical error.\n- **A note's context menu** no longer shows keyboard shortcuts, as in Finder. They work as\n  before, and Settings ▸ Shortcuts lists them all.\n\n### Fixed\n\n- **Folding a section while searching** sent the list back to the section's header, and you lost\n  your place among the matches. The list stays where it is now.\n- **The panel could still go empty** after a fold in two cases (on macOS 27): a section that opened\n  as you dragged notes over it and closed as you dragged them away, and a section folded on\n  another Mac while you were scrolled into it.\n- **With keyboard navigation on** (System Settings ▸ Keyboard), Tab stopped twice at every control\n  in Settings. It stops once now.\n- **The arrow keys** change Settings' pop-up menus (Captures go to, Text size and the others).\n  Only Space did before. The Return menu can be reached with Tab too.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.10"
+    },
+    {
       "version": "0.7.9",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.9/Blok-0.7.9.zip",
