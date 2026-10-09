@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.11",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.11/Blok-0.7.11.zip",
+      "sha256": "700d6eb9becf8020b66da8da50d6dc10361b23784e8f60e12e4752b0c3b8e447",
+      "size": 5114452,
+      "notes": "### Changed\n\n- **A new app icon:** obsidian, with your sections stacked behind the note in violet, and the b's\n  stem standing apart from its bowl. Silver with a dark card in light mode, obsidian with a light\n  card in dark; the clear and tinted versions follow System Settings ▸ Appearance ▸ Icon & widget\n  style, as before.\n- **The menu bar mark matches it:** solid now, the note card with its b, and the stacked cards\n  behind it.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.11"
+    },
+    {
       "version": "0.7.10",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.10/Blok-0.7.10.zip",
