@@ -1,7 +1,7 @@
 # Written by scripts/release.sh from packaging/homebrew/blok.rb.in — edit the template.
 cask "blok" do
-  version "0.7.12"
-  sha256 "6aea3771949d5436992fc7a417da12df47729a463ef5f4d9b9f79599193801ec"
+  version "0.7.13"
+  sha256 "0de34789261bf1605897bfd3de762f54fbaaed8d228d6630d488c048e0604d76"
 
   url "https://github.com/vAntonii/homebrew-tap/releases/download/blok-#{version}/Blok-#{version}.zip"
   name "Blok"
@@ -25,10 +25,7 @@ cask "blok" do
   ]
 
   caveats <<~EOS
-    Blok isn't notarized yet. The first time you open it, macOS says it can't check it:
-    open System Settings ▸ Privacy & Security and click "Open Anyway" next to Blok.
-
-    Blok then asks for Accessibility access (to capture selected text with ⇧⇧).
+    Blok asks for Accessibility access (to capture selected text with ⇧⇧).
     Updates: Blok checks once a day and installs them itself (Settings ▸ General ▸ Updates).
 
     To use your notes from Claude Code: in Blok, … ▸ Connect to Claude… copies the

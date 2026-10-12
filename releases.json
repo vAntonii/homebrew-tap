@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.13",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.13/Blok-0.7.13.zip",
+      "sha256": "0de34789261bf1605897bfd3de762f54fbaaed8d228d6630d488c048e0604d76",
+      "size": 5127341,
+      "notes": "### Changed\n\n- **Blok is notarized:** it's signed with a Developer ID and checked by Apple, so a download opens\n  like any app from the internet, without *Open Anyway* in System Settings.\n- **Once, after this update, macOS asks for your login password** before Blok reads its licence\n  from the Keychain (and your notes' key, if they're encrypted), because Blok's signature\n  changed: enter it and choose **Always Allow**. Choosing Deny pauses nothing; Blok asks again\n  the next time it opens.\n- **Once, after this update, give Blok Accessibility again** for capturing with ⇧⇧: in System\n  Settings ▸ Privacy & Security ▸ Accessibility (*Device Control and Data Access* on macOS 27),\n  select Blok and remove it with **−** (switching it off and on may not be enough). Then quit\n  Blok, open it again, click **Open System Settings…** in its banner, and switch it on.\n- **Updates are checked more closely:** Blok only installs one that Apple has notarized, as well\n  as signed by Blok's developer.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.13"
+    },
+    {
       "version": "0.7.12",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.12/Blok-0.7.12.zip",
