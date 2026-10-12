@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.12",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.12/Blok-0.7.12.zip",
+      "sha256": "6aea3771949d5436992fc7a417da12df47729a463ef5f4d9b9f79599193801ec",
+      "size": 5120221,
+      "notes": "### Changed\n\n- **The input grows as you write:** a long note or prompt moves the input's top edge up over the\n  note list, until it has two thirds of the space they share, instead of scrolling after two\n  lines. Saving the note brings it back to its usual height. The compact layout grows too, with\n  the + and the section staying beside the first line.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.12"
+    },
+    {
       "version": "0.7.11",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.11/Blok-0.7.11.zip",

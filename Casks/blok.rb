@@ -1,7 +1,7 @@
 # Written by scripts/release.sh from packaging/homebrew/blok.rb.in — edit the template.
 cask "blok" do
-  version "0.7.11"
-  sha256 "700d6eb9becf8020b66da8da50d6dc10361b23784e8f60e12e4752b0c3b8e447"
+  version "0.7.12"
+  sha256 "6aea3771949d5436992fc7a417da12df47729a463ef5f4d9b9f79599193801ec"
 
   url "https://github.com/vAntonii/homebrew-tap/releases/download/blok-#{version}/Blok-#{version}.zip"
   name "Blok"
