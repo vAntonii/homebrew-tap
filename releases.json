@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.7.14",
+      "minimumSystemVersion": "26.0",
+      "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.14/Blok-0.7.14.zip",
+      "sha256": "f7fd4b161d36ae3e9d98781ad2fd2907c33b3603387df1374446e3468af05ff2",
+      "size": 5155001,
+      "notes": "### New\n\n- **Hide empty sections** (Settings ▸ General): sections with no notes to show leave the list,\n  all but the one new notes go to. ⌘K, the input's section menu and a note's Move To still list\n  them, and a section comes back with its first note. It's off unless you turn it on.\n\n### Changed\n\n- **Dragging a note to the top or bottom of the list scrolls it**, faster the nearer the edge,\n  and on past it over the search field or the input. Let go there and the note lands where the\n  list shows it. Before, the list only scrolled with the pointer right at its edge.\n- **A selected long note opens sooner**, after a quarter of a second.\n\n### Fixed\n\n- **A selected long note** now shows from its first line, just under its section's header. Its\n  first lines were hidden under the header.\n- **↓ from a long note** folds it back in place, with the next note right below. The list jumped\n  a moment later, or was left empty if you had read to the end of the note.\n- **Esc with a section's header selected** takes you to the input, as it does with a note\n  selected. It hid the panel.\n- **Allowing Accessibility** no longer piles up dialogs: *Open System Settings…* first shows\n  macOS's own request on its own, and opens System Settings the next time. Before, System\n  Settings came up over the request, and each time Blok opened again added another one.\n\n",
+      "page": "https://github.com/vAntonii/homebrew-tap/releases/tag/blok-0.7.14"
+    },
+    {
       "version": "0.7.13",
       "minimumSystemVersion": "26.0",
       "url": "https://github.com/vAntonii/homebrew-tap/releases/download/blok-0.7.13/Blok-0.7.13.zip",
